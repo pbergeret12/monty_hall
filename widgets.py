@@ -26,8 +26,10 @@ button_lancer = Button(window)
 
 label_info = Label(window)
 
-label_nb_essai = Label(window)
-label_nb_chevre = Label(window)
+dict_info_score = {"nb_try":0, "nb_goat": 0, "nb_treasure":0}
+
+label_nb_try = Label(window)
+label_nb_goat = Label(window)
 label_nb_treasure = Label(window)
 
 
@@ -51,6 +53,10 @@ button_change = Button(window)
 button_keep = Button(window)
 button_goend = Button(window)
 
+picture_point = PhotoImage(file='pictures_monty_hall/point.png')
+
+label_point = Label(window)
+
 ### widget for the end game
 
 picture_genius = PhotoImage(file='pictures_monty_hall/genius.png')
@@ -63,10 +69,19 @@ label_picture_reward = Label(window)
 
 label_text_end = Label(window)
 
+button_redo = Button(window)
+
+button_simulate_100_keep = Button(window)
+button_simulate_100_change = Button(window)
+
 ### widget for the simulation
 
 picture_old = PhotoImage(file='pictures_monty_hall/old.png')
-label_end_simulation = Label(window)
+label_picture_simulation = Label(window)
+label_simulation = Label(window)
+
+
+
 
 
 
